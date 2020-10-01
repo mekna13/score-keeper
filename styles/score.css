@@ -1,0 +1,84 @@
+/*------------------------ALL THE POSITIONING AND CONTAINER STYLES----------------------------*/
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+    background-color: #e8f044;
+  
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*--------------------------ALL THE GRID STYLES--------------------------------------*/
+.wrapper{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap:10px;
+
+}
+.box{
+    border-radius: 5px;
+    background-color:#dc2ade;
+    padding: 30px;
+}
+button{
+    background-color: #4d089a;
+    border-radius: 2px;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 5px;
+    color: white;
+    border: none;
+}   
+/* --------------------------ALL THE TEXT STYLES -------------------------------------*/
+h3{
+    font-family: 'Fjalla One', sans-serif;
+    color: honeydew;
+}
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    color: #4d089a;
+}
+h2{
+    font-family: 'Fjalla One', sans-serif;
+    color: #4d089a;
+}
+h4{
+    font-size: 50px;
+    color:white;
+    font-family: 'Fjalla One', sans-serif;
+}
+h6{
+    font-family: 'Fjalla One', sans-serif;
+}
+/*---------------------------------MODAL POP UP BOX STYLES --------------------------------------------*/
+
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255,255,255,0.7);
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+.modal-content{
+    width:400px;
+    height:200px ;
+    background-color:#dc2ade;
+    border-radius: 5px;
+    padding: 50px;
+    position: relative;
+    color:white;
+}
+.buttonalign{
+    display: block;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>score keeper</title>
+        <link rel="stylesheet" href="styles/score.css">
+        <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    </head>
+
+    <!------------------------------------------------------ MAIN PART --------------------------------------------------------------------------------------->
+    <body class="container">
+      <div class="container2">  
+       <h1>SCORE KEEPER</h1>
+      </div>
+      <div class="container2">  
+        <h2>END POINT : <span id="qp">5</span> </h2>
+       </div>
+    <!---------------------------------------------------GRID SHOWING POINTS------------------------------------------------------------------------------>
+       <div class="wrapper container2">
+         <div class="box">
+            <h3 class="container2">Player 1</h3>
+            <h4 class="container2" id="s1">0</h4>
+        </div>
+        <div class="box">
+            <h3 class="container2">Player 2</h3>
+            <h4 class="container2" id="s2">0</h4>
+        </div>
+        <div class="box">
+            <h3 class="container2">Player 3</h3>
+            <h4 class="container2" id="s3">0</h4>
+        </div>
+        <div class="box">
+            <h3 class="container2">Player 4</h3>
+            <h4 class="container2" id="s4">0</h4>
+        </div>
+        
+       </div>
+    <!-----------------------------------------ALL THE BUTTONS AND TEXT INPUTS------------------------------------------------------------------------->
+       <br>
+       <div class="wrapper container2">
+           <button id="p1">Player 1</button>
+           <button id="p2">Player 2</button>
+           <button id="p3">Player 3</button>
+           <button id="p4">Player 4</button>
+
+       </div>
+       <br>
+       <div class="container2"><button id="reset">reset</button></div><br>
+       <div class="container2"><label for="endpoint" style="font-family:'Fjalla One', sans-serif;">END POINT : </label><input type="number" name="endpoint"></div>
+    
+
+       <!----------------------------------------------POP UP BOX PART--------------------------------------------------------------------->
+       <div class="bg-modal">
+           <div class="modal-content";>
+            <div class="container2"><h1 id="winner" style="color: white;"></h1></div><br><br>
+            <div class="buttonalign"><button id="playagain"><span style="font-family:'Fjalla One', sans-serif; font-size:medium;" >PLAY AGAIN !</span></button></div>
+           </div>
+       </div>
+    </div>
+        <script src="scripts//scorek.js" ></script>
+    </body>
+</html>
